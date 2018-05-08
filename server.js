@@ -4,8 +4,8 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+const indexRouter = require('./controller/routes/index');
+const usersRouter = require('./controller/routes/users');
 
 const app = express();
 
