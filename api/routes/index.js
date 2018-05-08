@@ -4,6 +4,7 @@ const controller = require('../controller/indexController');
 
 
 router
-    .get('/', controller.renderPage);
+    .route('/')
+    .get(controller.renderPage);
 
 module.exports = router;
