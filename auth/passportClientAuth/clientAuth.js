@@ -19,7 +19,7 @@ let operations = {
             passwordField: 'password',
             passReqToCallback: true
         }, function (req, username, password, done) {
-
+            
         }))
     }
 }
